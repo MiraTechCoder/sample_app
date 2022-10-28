@@ -30,6 +30,5 @@ Rails.application.configure do
   config.active_record.migration_error = :page_load
   config.active_record.verbose_query_logs = true
   config.assets.quiet = true
-  config.hosts.clear
-end
+  
 end
